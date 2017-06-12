@@ -1,0 +1,41 @@
+.header {
+	font-family: 'Lato', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 400;
+	line-height: 1.1;
+}
+
+.header-one {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 2.25rem;
+}
+
+.header-two {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 1.875rem;
+}
+
+.header-three {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+}
+
+.header-four {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.125rem;
+}
+
+.header-five {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 0.875rem;
+}
+
+.header-six {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 0.75rem;
+}
