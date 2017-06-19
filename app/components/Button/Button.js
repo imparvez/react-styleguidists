@@ -6,10 +6,11 @@ import './Button.css';
 /**
  * The only true button.
  */
-export default function Button({ color, size, onClick, children }) {
+export default function Button({ color, size, onClick, children, background }) {
 	const styles = {
 		color,
 		fontSize: Button.sizes[size],
+		background,
 	};
 
 	return <button className="button" style={styles} onClick={onClick}>{children}</button>;
@@ -24,12 +25,12 @@ Button.propTypes = {
 	/** Gets called when the user clicks on the button */
 	onClick: PropTypes.func,
 	/** BG COLOR */
-	backgroundColor: PropTypes.string,
+	background: PropTypes.string,
 };
 Button.defaultProps = {
 	color: '#333',
 	size: 'normal',
-	backgroundColor: 'transparent',
+	background: 'transparent',
 	/* eslint-disable no-console */
 	onClick: event => {
 		console.log('You have clicked me!', event.target);
