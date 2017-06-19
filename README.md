@@ -1,6 +1,6 @@
-# React Stylguidist
+# React Styleguidist
 
-This Developer kit is for all the developers who wants to get started with React library but don't want to mess up their time in configuring the task runner.
+Create a living style guide.
 
 ### Steps to follow:
 
@@ -18,12 +18,12 @@ Download all the required packages
 npm install
 ```
 
-Download React Stylguidist package
+Download React Styleguidist package
 ```sh
 npm install --save-dev react-styleguidist
 ```
 
-Create StylGuidist config file.
+Create Styleguidist config file.
 ```sh
 touch styleguide.config.js
 ```
